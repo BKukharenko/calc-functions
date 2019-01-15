@@ -70,4 +70,30 @@ function exponentiation ($baseNumber, $exponent) {
 
 echo exponentiation(16, 2); ?>
 
+<br>
+
+<?php
+
+//Square root function
+function squareToRoot ($number) {
+
+  if ($number === 0 || $number === 1) {
+    return "Can't get square root from {$number}";
+  }
+
+  $i = 1;
+  $result = 1;
+
+  while ($result <= $number) {
+    $i++;
+    $result = $i * $i;
+  }
+
+  $root = $i -1;
+
+  return "Square root of {$number}: {$root}" ;
+}
+
+echo squareToRoot(1);
+
 
