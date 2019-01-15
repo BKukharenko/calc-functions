@@ -94,6 +94,26 @@ function squareToRoot ($number) {
   return "Square root of {$number}: {$root}" ;
 }
 
-echo squareToRoot(1);
+echo squareToRoot(1); ?>
+
+<br>
+
+<?php
+
+//Factorial function
+function factorial ($number) {
+
+  $result = 1;
+
+  for ($i = $number; $i>=1;$i--) {
+    $result = $result * $i;
+  }
+
+  return "Factorial of {$number}: {$result}";
+}
+
+echo factorial(6);
+
+
 
 
