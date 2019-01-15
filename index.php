@@ -52,3 +52,22 @@ function divide ($number1, $number2) {
 
 echo divide(16, 2); ?>
 
+<br>
+
+<?php
+
+//Exponentiation function
+function exponentiation ($baseNumber, $exponent) {
+
+  $result = 1;
+
+  for ($i=1; $i <= $exponent; $i++) {
+    $result = $result * $baseNumber;
+  }
+
+  return  "Exponentiation of {$baseNumber} to {$exponent}:  {$result}";
+}
+
+echo exponentiation(16, 2); ?>
+
+
