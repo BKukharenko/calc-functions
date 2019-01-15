@@ -112,7 +112,92 @@ function factorial ($number) {
   return "Factorial of {$number}: {$result}";
 }
 
-echo factorial(6);
+echo factorial(6);?>
+
+<br>
+
+<?php
+
+//Sin function
+function mySin($number) {
+
+  $result = sin($number);
+
+  return "Sin of {$number}: {$result}";
+}
+
+echo mySin(60); ?>
+
+<br>
+
+<?php
+
+//Cos function
+function myCos($number) {
+
+  $result = cos($number);
+
+  return "Cos of {$number}: {$result}";
+}
+
+echo myCos(60); ?>
+
+<br>
+
+<?php
+
+//Tan function
+function myTan($number) {
+
+  $result = tan($number);
+
+  return "Tan of {$number}: {$result}";
+}
+
+echo myTan(60); ?>
+
+  <br>
+
+<?php
+
+//Cot function
+function myCot($number) {
+
+  $result = tan(M_PI_2 - ($number));
+
+  return "Cot of {$number}: {$result}";
+}
+
+echo myCot(60); ?>
+
+<br>
+
+<?php
+
+//Atan function function
+function myAtan($number) {
+
+  $result = atan($number);
+
+  return "Atan of {$number}: {$result}";
+}
+
+echo myAtan(60); ?>
+
+<br>
+
+<?php
+
+//Arcctg function
+function arcCtg ($number){
+
+    $result = (M_PI/2) - atan($number);
+    return "Arcctg of {$number}: {$result}";
+}
+
+echo arcCtg(60);
+
+
 
 
 
