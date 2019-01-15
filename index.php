@@ -28,6 +28,7 @@ echo subtract(45, 20); ?>
 
 <?php
 
+//Multiply numbers function
 function multiply ($number1, $number2) {
 
   $result = $number1 * $number2;
@@ -36,3 +37,18 @@ function multiply ($number1, $number2) {
 }
 
 echo multiply(5, 10); ?>
+
+<br>
+
+<?php
+
+//Divide numbers function
+function divide ($number1, $number2) {
+
+  $result = $number1 / $number2;
+
+  return "Division of {$number1} and {$number2}:  {$result}";
+}
+
+echo divide(16, 2); ?>
+
