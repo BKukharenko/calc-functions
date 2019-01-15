@@ -23,3 +23,16 @@ function subtract ($number1, $number2) {
 }
 
 echo subtract(45, 20); ?>
+
+<br>
+
+<?php
+
+function multiply ($number1, $number2) {
+
+  $result = $number1 * $number2;
+
+  return "Product of {$number1} and {$number2}:  {$result}";
+}
+
+echo multiply(5, 10); ?>
